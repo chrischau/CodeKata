@@ -5,3 +5,9 @@ F:\Development\CodeKata\Anagram\Anagram\obj\x86\Debug\Anagram.exe
 F:\Development\CodeKata\Anagram\Anagram\obj\x86\Debug\Anagram.pdb
 F:\Development\CodeKata\Anagram\Anagram\bin\Debug\nunit.framework.dll
 F:\Development\CodeKata\Anagram\Anagram\bin\Debug\nunit.framework.xml
+C:\GitHub Repositories\CodeKata\Anagram\Anagram\obj\x86\Debug\Anagram.exe
+C:\GitHub Repositories\CodeKata\Anagram\Anagram\obj\x86\Debug\Anagram.pdb
+C:\GitHub Repositories\CodeKata\Anagram\Anagram\bin\Debug\Anagram.exe
+C:\GitHub Repositories\CodeKata\Anagram\Anagram\bin\Debug\Anagram.pdb
+C:\GitHub Repositories\CodeKata\Anagram\Anagram\bin\Debug\nunit.framework.xml
+C:\GitHub Repositories\CodeKata\Anagram\Anagram\obj\x86\Debug\ResolveAssemblyReference.cache
