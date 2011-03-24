@@ -8,6 +8,7 @@ namespace Anagram {
 
     WordsCounter() {
       WordDictionary = new Dictionary<string, List<string>>();
+      WordDictionaryByPrimeNumber = new Dictionary<long, List<string>>();
     }
 
     static WordsCounter wordsCounter;
@@ -19,6 +20,7 @@ namespace Anagram {
     }
 
     public Dictionary<string, List<string>> WordDictionary { get; set; }
+    public Dictionary<long, List<string>> WordDictionaryByPrimeNumber { get; set; }
 
     public void Insert(string wordValue, string word) {
       if (!WordDictionary.ContainsKey(wordValue)) 
@@ -26,6 +28,14 @@ namespace Anagram {
 
       if (!WordDictionary[wordValue].Contains(word))
         WordDictionary[wordValue].Add(word);
+    }
+
+    public void Insert(long wordValue, string word) {
+      if (!WordDictionaryByPrimeNumber.ContainsKey(wordValue))
+        WordDictionaryByPrimeNumber.Add(wordValue, new List<string>());
+
+      if (!WordDictionaryByPrimeNumber[wordValue].Contains(word))
+        WordDictionaryByPrimeNumber[wordValue].Add(word);
     }
 
     public void Dispose() {
