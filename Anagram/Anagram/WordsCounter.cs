@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Anagram {
   public class WordsCounter : IDisposable {
@@ -13,10 +11,7 @@ namespace Anagram {
 
     static WordsCounter wordsCounter;
     public static WordsCounter Instance() {
-      if (wordsCounter == null)
-        wordsCounter = new WordsCounter();
-
-      return wordsCounter;
+      return wordsCounter ?? (wordsCounter = new WordsCounter());
     }
 
     public Dictionary<string, List<string>> WordDictionary { get; set; }
